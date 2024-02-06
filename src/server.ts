@@ -1,4 +1,4 @@
-import fastify from "fastify";
+import fastify from 'fastify';
 
 const app = fastify();
 
@@ -7,5 +7,5 @@ app
     port: 3333,
   })
   .then(() => {
-    console.log("HTTP server running");
+    console.log('HTTP server running');
   });
