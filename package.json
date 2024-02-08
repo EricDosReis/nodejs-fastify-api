@@ -4,6 +4,7 @@
   "description": "RESTful API built with Fastify",
   "main": "index.js",
   "scripts": {
+    "build": "tsup src --out-dir build",
     "dev": "tsx watch src/server.ts",
     "lint": "eslint src --ext .ts",
     "knex": "node --import tsx ./node_modules/knex/bin/cli.js --knexfile ./knexfile.ts",
@@ -29,6 +30,7 @@
     "eslint-plugin-promise": "^6.1.1",
     "prettier": "^3.2.5",
     "supertest": "^6.3.4",
+    "tsup": "^8.0.1",
     "tsx": "^4.7.0",
     "typescript": "^5.3.3",
     "vitest": "^1.2.2"
